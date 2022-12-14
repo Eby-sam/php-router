@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Sam\\Router\\tests\\RouterTest::test":4,"Sam\\Router\\tests\\RouterTest::testIfRouteAlreadyExist":4},"times":{"Sam\\Router\\tests\\RouterTest::testIfRouteNotFoundByMatch":0.002,"Sam\\Router\\tests\\RouterTest::test":0.013,"Sam\\Router\\tests\\RouterTest::testIfRouteNotFoundByGet":0,"Sam\\Router\\tests\\RouterTest::testIfRouteAlreadyExist":0}}

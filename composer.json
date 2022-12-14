@@ -1,0 +1,27 @@
+{
+    "name": "sam/router",
+    "description": "repro",
+    "type": "library",
+
+    "authors": [
+        {
+            "name": "coque",
+            "email": "coquelet.samuel@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Sam\\Router\\": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Sam\\Router\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
