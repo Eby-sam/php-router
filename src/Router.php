@@ -3,8 +3,6 @@
 namespace Sam\Router;
 
 use Sam\Route\Route;
-use Sam\Router\RouteNotFoundException;
-
 
 /**
  * Class Router

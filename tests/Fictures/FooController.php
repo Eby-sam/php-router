@@ -3,7 +3,7 @@
 namespace Sam\Router\Tests\Fictures;
 
 class FooController {
-    public function bar(string $bar): string
+    public function bar(string $bar)
     {
         return $bar;
     }

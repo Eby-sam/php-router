@@ -28,14 +28,6 @@ class Route {
     private $callable;
 
     /**
-     * @return string
-     */
-    public function getName(): string
-    {
-        return $this->name;
-    }
-
-    /**
      * Route constructor
      * @param string $name
      * @param string $path
@@ -46,6 +38,14 @@ class Route {
         $this->name = $name;
         $this->path = $path;
         $this->callable = $callable;
+    }
+
+    /**
+     * @return string
+     */
+    public function getName(): string
+    {
+        return $this->name;
     }
 
     /**

@@ -7,9 +7,9 @@ namespace Sam\Router\Tests\Fictures;
  */
 class HomeController
 {
-    public function index(string $index): string
+    public function index()
     {
-        return $index;
+        return "not hello world";
     }
 
 }
